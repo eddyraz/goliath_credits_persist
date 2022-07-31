@@ -1,0 +1,23 @@
+(undo-tree-save-format-version . 1)
+"5196b8ad972be8b9190a4d59e57d4643fec8ddd7"
+[nil nil nil nil (25313 49208 643032 203000) 0 nil]
+([nil nil ((#("# {:dep_from_hexpm, \"~> 0.3.0\"},
+      # {:dep_from_git, git: \"https://github.com/elixir-lang/my_dep.git\", tag: \"0.1.0\"}" 0 2 (fontified t face font-lock-comment-delimiter-face) 2 20 (fontified t face font-lock-comment-face) 20 21 (fontified t syntax-table (15) face font-lock-comment-face) 21 29 (fontified t face font-lock-comment-face) 29 30 (fontified t syntax-table (15) face font-lock-comment-face) 30 33 (fontified t face font-lock-comment-face) 33 39 (fontified t) 39 41 (fontified t face font-lock-comment-delimiter-face) 41 62 (fontified t face font-lock-comment-face) 62 63 (fontified t syntax-table (15) face font-lock-comment-face) 63 104 (fontified t face font-lock-comment-face) 104 105 (fontified t syntax-table (15) face font-lock-comment-face) 105 112 (fontified t face font-lock-comment-face) 112 113 (fontified t syntax-table (15) face font-lock-comment-face) 113 118 (fontified t face font-lock-comment-face) 118 119 (fontified t syntax-table (15) face font-lock-comment-face) 119 120 (fontified t face font-lock-comment-face)) . -530) (undo-tree-id0 . -120) (undo-tree-id1 . -33) (undo-tree-id2 . -33) (undo-tree-id3 . -33) (undo-tree-id4 . -120) (undo-tree-id5 . -33) (undo-tree-id6 . 1) (undo-tree-id7 . -120) (undo-tree-id8 . 79) (undo-tree-id9 . -42) 650 (t 25313 46664 342024 914000)) nil (25313 49208 643028 126000) 0 nil])
+([nil nil ((531 . 540) (530 . 532) (t 25313 49208 654503 360000)) nil (25314 35373 905269 267000) 0 nil])
+([nil nil ((543 . 545) (542 . 544) (#("\"" 0 1 (fontified nil syntax-table (15))) . -542) (540 . 543)) nil (25314 35373 905266 913000) 0 nil])
+([nil nil ((545 . 549)) nil (25314 35373 905262 445000) 0 nil])
+([nil nil ((551 . 552) (t 25314 35373 903803 18000)) nil (25314 35461 436078 237000) 0 nil])
+([nil nil ((552 . 559)) nil (25314 35461 436075 422000) 0 nil])
+([nil nil ((560 . 569) (559 . 561)) nil (25314 35461 436073 589000) 0 nil])
+([nil nil ((569 . 572)) nil (25314 35461 436071 124000) 0 nil])
+([nil nil ((571 . 573) (#("\"" 0 1 (fontified nil syntax-table (15))) . -571) (571 . 572)) nil (25314 35461 436068 339000) 0 nil])
+([nil nil ((#(">" 0 1 (fontified t)) . -573) (undo-tree-id10 . -1) 574) nil (25314 35461 436063 129000) 0 nil])
+([nil nil ((572 . 580)) nil (25314 35461 436040 617000) 0 nil])
+([nil nil ((582 . 583) (t 25314 35461 448684 815000)) nil (25314 36100 765572 146000) 0 nil])
+([nil nil ((583 . 590)) nil (25314 36100 765569 822000) 0 nil])
+([nil nil ((nil rear-nonsticky nil 612 . 613) (nil fontified nil 590 . 613) (590 . 613)) nil (25314 36100 765565 43000) 0 nil])
+([nil nil ((#(" " 0 1 (fontified t)) . 590) (t 25314 36100 775198 388000)) nil (25314 36104 637232 693000) 0 nil])
+([nil nil ((#("4" 0 1 (fontified t face font-lock-string-face)) . -548) (undo-tree-id11 . -1) 549 (t 25314 36104 647238 84000)) nil (25314 36720 235130 86000) 0 nil])
+([nil nil ((548 . 551)) nil (25314 36720 235116 755000) 0 nil])
+([nil current ((#("8" 0 1 (fontified t face font-lock-string-face)) . -548) (undo-tree-id12 . -1) (#("." 0 1 (fontified t face font-lock-string-face)) . -549) (undo-tree-id13 . -1) 550 (t 25314 36720 230335 296000)) nil (25314 36735 135064 48000) 0 nil])
+nil

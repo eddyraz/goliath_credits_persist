@@ -1,0 +1,17 @@
+import Config
+
+config :goliath_credits_persistence, Goliath.Credits.Persistence.Repo,
+  database: "goliath_credits_persistence_repo",
+  username: "user",
+  password: "pass",
+  hostname: "localhost"
+
+config :goliath_credits_persistence, Goliath.Repo,
+  database: "goliath_credits_persistence_repo",
+  username: "goliath_master",
+  password: "Zion2190**",
+  hostname: "localhost"
+
+
+
+config :app, ecto_repos: [Goliath.Repo]

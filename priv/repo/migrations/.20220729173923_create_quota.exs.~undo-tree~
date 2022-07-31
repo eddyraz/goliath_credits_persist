@@ -1,0 +1,6 @@
+(undo-tree-save-format-version . 1)
+"733805092851544ee892d2442b6033995e6f3abb"
+[nil nil nil nil (25317 38652 477052 269000) 0 nil]
+([nil nil ((92 . 94) (#("  " 0 2 (fontified nil)) . 91) (91 . 93) (91 . 92) (t 25316 6987 974134 178000)) nil (25317 38652 477050 596000) 0 nil])
+([nil current ((92 . 94) (#("  " 0 2 (fontified nil)) . 91) (91 . 93) (91 . 92)) nil (25317 38652 477045 15000) 0 nil])
+nil
