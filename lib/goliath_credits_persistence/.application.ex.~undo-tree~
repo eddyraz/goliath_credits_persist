@@ -6,12 +6,12 @@
 ([nil nil ((#("p" 0 1 (fontified t)) . -393) (undo-tree-id0 . -1) 394) nil (25315 57722 606967 878000) 0 nil])
 ([nil nil ((393 . 397)) nil (25315 57722 606936 931000) 0 nil])
 ([nil nil ((393 . 395) (t 25315 57722 618027 527000)) nil (25315 63908 511678 83000) 0 nil])
-([nil nil ((#("E" 0 1 (face font-lock-type-face fontified t)) . -393) (undo-tree-id2 . -1) (#("c" 0 1 (face font-lock-type-face fontified t)) . -394) (undo-tree-id3 . -1) 395) nil (25315 63908 511674 707000) 0 nil])
+([nil nil ((#("E" 0 1 (fontified t face font-lock-type-face)) . -393) (undo-tree-id2 . -1) (#("c" 0 1 (fontified t face font-lock-type-face)) . -394) (undo-tree-id3 . -1) 395) nil (25315 63908 511674 707000) 0 nil])
 ([nil nil ((393 . 413)) nil (25315 63908 511667 844000) 0 nil])
-([nil nil ((#("E" 0 1 (face font-lock-type-face fontified t)) . -402) (undo-tree-id1 . -1) 403) nil (25315 63908 511663 256000) 0 nil])
+([nil nil ((#("E" 0 1 (fontified t face font-lock-type-face)) . -402) (undo-tree-id1 . -1) 403) nil (25315 63908 511663 256000) 0 nil])
 ([nil nil ((402 . 403)) nil (25315 63908 511642 157000) 0 nil])
 ([nil nil ((#("      # Starts a worker by calling: GoliathCreditsPersistence.Worker.start_link(arg)
-      # {GoliathCreditsPersistence.Worker, arg}" 0 6 (fontified t) 6 8 (fontified t face font-lock-comment-delimiter-face) 8 85 (fontified t face font-lock-comment-face) 85 91 (fontified t) 91 93 (fontified t face font-lock-comment-delimiter-face) 93 132 (fontified t face font-lock-comment-face)) . -246) (undo-tree-id4 . -85) (undo-tree-id5 . -85) (undo-tree-id6 . -132) (undo-tree-id7 . -85) (undo-tree-id8 . -132) (undo-tree-id9 . -85) (undo-tree-id10 . 1) (undo-tree-id11 . -132) (undo-tree-id12 . 39) (undo-tree-id13 . -94) 378 (t 25315 63908 510664 234000)) nil (25317 29042 838976 724000) 0 nil])
+      # {GoliathCreditsPersistence.Worker, arg}" 0 6 (fontified t) 6 8 (face font-lock-comment-delimiter-face fontified t) 8 85 (face font-lock-comment-face fontified t) 85 91 (fontified t) 91 93 (face font-lock-comment-delimiter-face fontified t) 93 132 (face font-lock-comment-face fontified t)) . -246) (undo-tree-id4 . -85) (undo-tree-id5 . -85) (undo-tree-id6 . -132) (undo-tree-id7 . -85) (undo-tree-id8 . -132) (undo-tree-id9 . -85) (undo-tree-id10 . 1) (undo-tree-id11 . -132) (undo-tree-id12 . 39) (undo-tree-id13 . -94) 378 (t 25315 63908 510664 234000)) nil (25317 29042 838976 724000) 0 nil])
 ([nil current ((#("
 " 0 1 (fontified t)) . 246) (undo-tree-id0 . -1) (undo-tree-id1 . -1) (undo-tree-id2 . -1) (undo-tree-id3 . -1)) nil (25317 29042 838951 16000) 0 nil])
 nil

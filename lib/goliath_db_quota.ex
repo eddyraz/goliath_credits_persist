@@ -1,19 +1,6 @@
-defmodule GoliathCreditsPersistence do
-  @moduledoc """
-  Documentation for `GoliathCreditsPersistence`.
-  """
+defmodule Goliath.Credits.Persistence.Db.Quota do
 
-  @doc """
-  Hello world.
-
-  ## Examples
-
-      iex> GoliathCreditsPersistence.hello()
-      :world
-
-  """
-
-  use Ecto.Schema
+use Ecto.Schema
 
   import Ecto.Changeset
   import Ecto.Query, only: [from: 2]
@@ -58,32 +45,4 @@ defmodule GoliathCreditsPersistence do
     field(:bill_number, :string)
   end
 
-
-  schema "client_quota" do
-
-    field()
-    field()
-    field()
-    field()
-    field()
-    field()
-    field()
-    field()
-    field()
-    field()
-    field()
-    field()
-    field()
-    field()
-    field()
-    field()
-    field()
-    field()
-    field()
-    field()
-    field()
-    
-
-  end  
-  
 end
