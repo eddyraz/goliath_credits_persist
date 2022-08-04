@@ -25,6 +25,8 @@ defmodule GoliathCreditsPersistence.MixProject do
       {:ecto_sql, "~> 3.4"},
       {:postgrex, ">= 0.0.0"},
       {:gettext, ">= 0.0.0"}
+     
+      
     ]
   end
 end

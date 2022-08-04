@@ -60,8 +60,7 @@ Indexes:
   """
 
   @doc """
-
-
+      dummy function
   """
 
   def hello() do
