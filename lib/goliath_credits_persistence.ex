@@ -1,6 +1,11 @@
 defmodule GoliathCreditsPersistence do
   @moduledoc """
-    Type mix ecto.migrate at the root of the project and and you'll end with these two tables 
+    Type 
+        mix deps.get
+        mix ecto.gen.repo
+        mix ecto.create
+        and 
+        mix ecto.migrate at the root of the project and and you'll end with these two tables in the goliath_credits_persistence_repo database 
 
   goliath_credits_persistence_repo=# \dS clients_quota
                                Table "public.clients_quota"
