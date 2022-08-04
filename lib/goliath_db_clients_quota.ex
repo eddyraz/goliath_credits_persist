@@ -1,0 +1,65 @@
+defmodule Goliath.Credits.Persistence.Db.Clients.Quota do
+  use Ecto.Schema
+
+  import Ecto.Changeset
+  import Ecto.Query, only: [from: 2]
+  import Goliath.Gettext
+
+  alias Goliath.Credits
+  alias Goliath.Credits.Charges
+  alias Goliath.User
+  alias Goliath.User.Intelligential
+  alias Goliath.Repo
+
+  @required_fields [
+    :loan_code,
+    :plan_number,
+    :quota_sec,
+    :concept_code,
+    :user_code,
+    :calc_number_days,
+    :quota_amount,
+    :earned_amount,
+    :paid_amount,
+    :condoned_amount,
+    :payment_sec,
+    :concept_state,
+    
+    :debt_balance,
+    :office_code
+  ]
+
+  @optional_fields [
+    :payment_date,
+    :previous_paid_amount,
+    :previous_concept_state,
+    :previous_payment_date,
+    :previous_sec_payment,
+    :last_payment_penalty,
+    :previous_earned_amount
+  ]
+
+  schema "quota_clients" do
+    field(:loan_code, :string)
+    field(:plan_number, :integer)
+    field(:quota_sec, :integer)
+    field(:concept_code, :string)
+    field(:user_code, :string)
+    field(:calc_number_days, :integer)
+    field(:quota_amount, :decimal)
+    field(:earned_amount, :decimal)
+    field(:paid_amount, :decimal)
+    field(:condoned_amount, :decimal)
+    field(:payment_sec, :integer)
+    field(:payment_date, :utc_datetime)
+    field(:concept_state, :string)
+    field(:previous_paid_amount, :decimal)
+    field(:previous_concept_state, :string)
+    field(:previous_payment_date, :utc_datetime)
+    field(:previous_sec_payment, :integer)
+    field(:last_payment_penalty, :binary)
+    field(:previous_earned_amount, :decimal)
+    field(:debt_balance, :decimal)
+    field(:office_code, :string)
+  end
+end
