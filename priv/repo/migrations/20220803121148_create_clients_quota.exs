@@ -24,6 +24,9 @@ defmodule Goliath.Credits.Persistence.Repo.Migrations.CreateClientsQuota do
       add(:previous_earned_amount, :decimal, default: 0.00, null: true)
       add(:debt_balance, :decimal, default: 0.00, null: false)
       add(:office_code, :string, size: 4, null: false)
+
+      timestamps()
+      
     end
   end
 end

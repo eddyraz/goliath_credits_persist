@@ -19,6 +19,9 @@ defmodule Goliath.Credits.Persistence.Repo.Migrations.CreateQuota do
       add(:prevision_amount, :decimal, default: 0.00, null: false)
       add(:INTE_adjust, :binary, null: false)
       add(:bill_number, :string, size: 1, null: false)
+
+      timestamps()
+      
     end
   end
 end
